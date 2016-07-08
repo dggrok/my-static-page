@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+}
+body{
+    width: 100%;
+    font-family: "Microsoft YaHei UI";
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*.loading{*/
+/*position: fixed;*/
+/*width: 80px;*/
+/*height: 60px;*/
+/*top: 50%;*/
+/*left: 50%;*/
+/*}*/
+.nav{
+    width: 100%;
+    min-width: 1024px;
+    margin: 0 auto;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    background:rgba(0, 0, 0, 0.2) none repeat scroll 0 0 !important;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    font-size: 16px;
+}
+.navWrapper{
+    width: 1024px;
+    margin: 0 auto;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+}
+.logo{
+    width: 320px;
+    height: 90px;
+    float: left;
+    position: relative;
+}
+.contanier{
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    font-size: 22px;
+    color: #ff5c90;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: "Microsoft YaHei UI" ;
+    position: relative;
+}
+.contanier p{
+    position: absolute;
+    left: 16px;
+    top: -10px;
+}
+.ketang{
+    float: left;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    font-size: 30px;
+    color: #ffffff;
+}
+.navList{
+    float:left;
+}
+.navList li{
+    display: inline-block;
+    margin-left: 35px;
+}
+.navList a{
+    color: #ffffff;
+}
+.navList a:hover{
+    color: #ff5c90;
+}
+.navList li:last-child{
+    text-decoration: underline;
+}
+.header{
+    width: 100%;
+    min-width: 1024px;
+    height: auto;
+    position: relative;
+}
+.headerBg{
+    width: 100%;
+    height: auto;
+}
+.headerAbout{
+    width: 280px;
+    height: 85px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -165px;
+    margin-top: -50px;
+    border: 1px solid #ffffff;
+    line-height: 85px;
+    font-size: 46px;
+    text-align: center;
+    color: #ffffff;
+}
+.main{
+    width: 100%;
+    min-width: 1024px;
+}
+.mainWrapper{
+    margin: 0 auto;
+    width: 1024px;
+    text-align: center;
+}
+.mainWrapper h2{
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 45px;
+    font-size: 40px;
+}
+.mainIntroduce{
+    width: 1000px;
+    text-indent: 2em;
+    text-align: left;
+    word-wrap: break-word;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 38px;
+    margin-bottom: 80px;
+    padding:0 12px;
+}
+.contact{
+    width: 1000px;
+    font-size: 18px;
+    margin-top: 55px;
+    line-height: 50px;
+    word-wrap: break-word;
+    text-align: left;
+}
+.contact h2{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.attention{
+    width: 100%;
+    min-width: 1024px;
+}
+.attentionWrapper{
+    margin: 0 auto;
+    width: 1024px;
+    text-align: center;
+    padding-top: 100px;
+}
+.content{
+    width: 1024px;
+    height: 80px;
+    margin-top: 35px;
+    font-size: 40px;
+    color: #ff5c90;
+    position: relative;
+}
+.lineLeft{
+    position: absolute;
+    width: 350px;
+    top: 40%;
+    left: 2%;
+}
+.lineRight{
+    position: absolute;
+    width: 350px;
+    top: 40%;
+    right: 0%;
+}
+.attentionTitle{
+    display: block;
+    width: 1024px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 75px;
+}
+.QRCodes{
+    width: 900px;
+    margin: 0 auto;
+}
+.QRCodes div{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 18px;
+}
+
+.footer{
+    clear: both;
+    width: 100%;
+    min-width: 1024px;
+    height: 150px;
+    background-color: #ff5e8c;
+    color: #ffffff;
+    position: relative;
+    font-size: 16px;
+}
+.footerWrapper{
+    margin: 0 auto;
+    width: 1024px;
+    height: 150px;
+    text-align: center;
+}
+.footerWrapper p{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.footerWrapper a:hover{
+    text-decoration: underline;
+    color: #000000 !important;
+}

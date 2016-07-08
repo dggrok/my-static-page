@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="美妆直播，化妆直播，美妆学习，化妆学习，护肤学习，最好化妆学习，想美课堂 ">
+    <meta name="description" content="想美，美妆视频直播电商，通过时尚达人传授美妆实用知识，发现全球美妆优选产品，帮助妹纸们解决美丽烦恼，实现随时随地，想美就美！">
+    <title>想美课堂</title>
+    <link rel="stylesheet"href="normalize.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!--<script src="jquery-1.12.2.min.js.js"></script>-->
+    <!--<script>-->
+        <!--var _hmt = _hmt || [];-->
+        <!--(function() {-->
+            <!--var hm = document.createElement("script");-->
+            <!--hm.src = "//hm.baidu.com/hm.js?d30199435ca2ebc072b81615fa457a53";-->
+            <!--var s = document.getElementsByTagName("script")[0];-->
+            <!--s.parentNode.insertBefore(hm, s);-->
+        <!--})();-->
+        <!--window.onload = function(){-->
+            <!--$(".loading").hide();-->
+            <!--$(".wrapper").show();-->
+        <!--};-->
+    <!--</script>-->
+</head>
+<body>
+  <!--<div class="loading"><img src="img/"><p>加载中。。。。</p> </div>-->
+  <div class="wrapper" >
+      <div class="nav" id="nav">
+          <div class="navWrapper">
+              <div class="logo">
+                  <div class="contanier"><p>想 美</p></div>
+                  <p class="ketang">想美课堂</p>
+              </div>
+              <div class="navList">
+                  <ul>
+                      <li><a href="index.html">首页</a></li>
+                      <li><a href="about.html">关于</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="header">
+          <img style="width: 100%;z-index: -1;display: block;" src="img/headerBg.png">
+          <div class="headerWrapper">
+              <p class="header-title">想美课堂</p>
+              <p class="header-subtitle">学知识，变美丽</p>
+              <img src="img/headerxiangmei.png">
+          </div>
+      </div>
+      <div class="course">
+          <img src="img/courseBg.png">
+          <div class="courseIntro">
+              <h2>美妆资讯</h2>
+              <p class="courseDetails">时尚又实用的美妆技能分享、好用又亲民的妆品推荐、获取更多有趣丰富的时尚资讯</p>
+              <h2 style="margin-top: 50%">达人视频</h2>
+              <p class="courseDetails">新鲜达人、时尚潮人“聚集地”，无论你是化妆新人还是美妆高手，都能在这里尽情Show自己</p>
+          </div>
+          <div class="courseImgList">
+              <div>
+                  <img src="img/14.png"/>
+                  <br/>
+                  <p>眼妆</p>
+              </div>
+              <div>
+                  <img src="img/15.png"/>
+                  <br/>
+                  <p>唇妆</p>
+              </div>
+              <div>
+                  <img src="img/16.png"/>
+                  <br/>
+                  <p>腮红</p>
+              </div>
+              <br/>
+              <div>
+                  <img src="img/17.png"/>
+                  <br/>
+                  <p>粉底</p>
+              </div>
+              <div>
+                  <img src="img/18.png"/>
+                  <br/>
+                  <p>眉毛</p>
+              </div>
+              <div>
+                  <img src="img/19.png"/>
+                  <br/>
+                  <p>鼻梁</p>
+              </div>
+          </div>
+      </div>
+      <div class="video">
+          <div class="videoLeft">
+              <h2>直播视频</h2>
+              <p class="videoIntro">零距离与美妆达人、时尚潮人分享各种彩妆、护肤、穿搭等时尚Topic</p>
+              <div class="film" style="text-align:center;">
+                  <button onclick="playPause()">播放/暂停</button>
+                  <button onclick="makeBig()">大</button>
+                  <button onclick="makeNormal()">中</button>
+                  <button onclick="makeSmall()">小</button>
+                  <br />
+                  <video id="video1" width="320" style="margin-top:15px;">
+                      <source src="123.mp4" type="video/mp4" />
+                      <source src="123.ogg" type="video/ogg" />
+                      Your browser does not support HTML5 video.
+                  </video>
+              </div>
+              <script type="text/javascript">
+                  var myVideo=document.getElementById("video1");
+
+                  function playPause()
+                  {
+                      if (myVideo.paused)
+                          myVideo.play();
+                      else
+                          myVideo.pause();
+                  }
+
+                  function makeBig()
+                  {
+                      myVideo.width=360;
+                  }
+
+                  function makeSmall()
+                  {
+                      myVideo.width=220;
+                  }
+
+                  function makeNormal()
+                  {
+                      myVideo.width=320;
+                  }
+              </script><!--视频流控制-->
+          </div>
+          <img class="videoBg" src="img/videoBg.png">
+          <img class="videoRight" src="img/videoImg.png">
+      </div>
+      <div class="shop">
+          <img  class="shopBg" src="img/shopBg.png">
+          <img  class="shopLeft" src="img/shopLeft.png">
+          <div class="shopIntro">
+              <h2>想美商城</h2>
+              <p class="shopDetails">想美商城采取达人试用，视频实录，100%海外直采，正品保证，拼团实惠，保税区或跨境仓闪电发货</p>
+          </div>
+      </div>
+      <div class="share">
+          <img  class="shareBg" src="img/shareBg.png">
+          <div class="shareContent">
+              <p style="font-size: 40px;color: #ff5e8c;">聊聊心得</p>
+              <p class="shareSubContent">跟大家分享你的经验，沟通化妆技巧</p>
+              <div class="shareImg">
+                  <div class="shareImgLeft">
+                      <img src="img/xiangmeiketang.png">
+                      <br/>
+                      微信公众号
+                      <br/>
+                      xiangmeiketang
+                  </div>
+                  <div class="shareImgRight">
+                      <img src="img/xiangmeiGirl.png">
+                      <br/>
+                      想美妞微信
+                      <br/>
+                      shoneme
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="contact">
+          <img class="contactBg" src="img/contactBg.png">
+          <div class="contactRight">
+              <div>
+                  <img src="img/weibo.png">
+                  <br/>
+                  <br/>
+                  微博
+                  <br/>
+                  @想美课堂
+              </div>
+              <div>
+                  <img src="img/todayNews.png">
+                  <br/>
+                  <br/>
+                  今日头条
+                  <br/>
+                  搜索“想美课堂”
+              </div>
+          </div>
+      </div>
+      <div class="footer">
+          <div class="footerWrapper">
+              <p class="copyrightEn">Copyright© 2016 Shoneme All Rights Reserved</p>
+              <p class="copyrightZh">上海想美信息科技有限公司版权所有   沪ICP备 08009627</p>
+              <p>
+                  友情链接：
+                  <a href="http://www.kuaidi.com/" target="_blank" style="color: #ffffff;">快递查询</a>
+              </p>
+          </div>
+      </div>
+  </div>
+</body>
+</html>

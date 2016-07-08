@@ -1,0 +1,333 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+}
+body{
+    width: 100%;
+    font-family: "Microsoft YaHei UI";
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*.loading{*/
+    /*position: fixed;*/
+    /*width: 80px;*/
+    /*height: 60px;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+/*}*/
+.nav{
+    width: 100%;
+    min-width: 1024px;
+    margin: 0 auto;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    background:rgba(0, 0, 0, 0.2) none repeat scroll 0 0 !important;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    font-size: 16px;
+}
+.navWrapper{
+    width: 1024px;
+    margin: 0 auto;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+}
+.logo{
+    width: 320px;
+    height: 90px;
+    float: left;
+    position: relative;
+}
+.contanier{
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    font-size: 22px;
+    color: #ff5c90;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: "Microsoft YaHei UI" ;
+    position: relative;
+}
+.contanier p{
+    position: absolute;
+    left: 16px;
+    top: -10px;
+}
+.ketang{
+    float: left;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    font-size: 30px;
+    color: #ffffff;
+}
+.navList{
+    float:left;
+}
+.navList li{
+    display: inline-block;
+    margin-left: 35px;
+}
+.navList a{
+    color: #ffffff;
+}
+.navList a:hover{
+    color: #ff5c90;
+}
+.navList li:first-child{
+    text-decoration: underline;
+}
+.header{
+    width: 100%;
+    min-width: 1024px;
+    position: relative;
+    background-color: #ff5c90;
+    padding-top: 100px;
+}
+.headerWrapper{
+    width: 160px;
+    height: 300px;
+    position: absolute;
+    top: 51%;
+    right: 28%;
+    margin-top: -150px;
+    color: #ffffff;
+    text-align: left;
+}
+.header-title{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.header-subtitle{
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+.headerWrapper img{
+    position: absolute;
+    left: 0px;
+}
+.course{
+    width: 100%;
+    min-width: 1024px;
+    position: relative;
+}
+.course img{
+    width: 100%;
+    z-index: -1;
+    display: block;
+}
+.courseIntro{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.courseIntro h2{
+    font-size: 40px;
+    color: #90c84d;
+
+}
+.courseDetails{
+    float: left;
+    width:300px;
+    display: inline-block;
+    margin-top: 10%;
+    word-break: break-all;
+    font-size: 18px;
+    color: #90c84d;
+}
+.courseImgList{
+    width: 40%;
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+.courseImgList div{
+    width: 33%;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+
+}
+.courseImgList p{
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    left: -20px;
+}
+.courseImgList img{
+    width: 80%;
+
+}
+.video{
+    width: 100%;
+    min-width: 1024px;
+    position: relative;
+}
+.videoBg{
+    width: 100%;
+    z-index: -1;
+    display: block;
+}
+.videoLeft{
+    position: absolute;
+    top: 10%;
+    left:10%;
+    text-align: left;
+    color: #ffffff;
+}
+.film{
+    position: absolute;
+    top: 115%;
+    left: -10%;
+}
+.videoLeft h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.videoIntro{
+    width: 300px;
+    word-break: break-all;
+    margin-top: 40px;
+    font-size: 18px;
+}
+.videoRight{
+    position: absolute;
+    right: 10%;
+    bottom: 4px;
+    height: 90%;
+}
+.shop{
+    width: 100%;
+    min-width: 1024px;
+    position: relative;
+    margin-top: -4px;
+}
+.shopBg{
+    width: 100%;
+    z-index: -1;
+    display: block;
+}
+.shopLeft{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    height: 60%;
+}
+.shopIntro{
+    position: absolute;
+    width: 40%;
+    top: 20%;
+    right: 2%;
+    word-wrap: break-word;
+}
+.shopIntro h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff5e8c;
+}
+.shopDetails{
+    margin-top: 30px;
+    font-size: 18px;
+    width: 45%;
+}
+.share{
+    width: 100%;
+    min-width: 1024px;
+    position: relative;
+}
+.shareBg{
+    width: 100%;
+    z-index: -1;
+    display: block;
+}
+.shareContent{
+    position: absolute;
+    width: 40%;
+    right: 2%;
+    top: 16%;
+}
+.shareSubContent{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.shareImg{
+    width: 100%;
+    position: relative;
+    margin-top: 60px;
+}
+.shareImgLeft{
+    float: left;
+     text-align: center;
+}
+.shareImgRight{
+    float: left;
+    margin-left: 20%;
+    text-align: center;
+}
+.contact{
+    width: 100%;
+    min-width: 1024px;
+    position: relative;
+}
+.contactBg{
+    width: 100%;
+    z-index: -1;
+    display: block;
+}
+.contactRight{
+    width: 32%;
+    position: absolute;
+    top: 20%;
+    right: 12%;
+}
+.contactRight div{
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contactRight img{
+    width: 95%;
+}
+.footer{
+    clear: both;
+    width: 100%;
+    min-width: 1024px;
+    height: 150px;
+    background-color: #ff5e8c;
+    color: #ffffff;
+    position: relative;
+    font-size: 16px;
+}
+.footerWrapper{
+    margin: 0 auto;
+    width: 1024px;
+    height: 150px;
+    text-align: center;
+}
+.footerWrapper p{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.footerWrapper a:hover{
+    text-decoration: underline;
+    color: #000000 !important;
+}
